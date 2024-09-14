@@ -20,13 +20,13 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: Jiyong_pic.jpg
+author_logo: profile.png
 author: Jiyong Kim
-author_bio: Jiyong Kim @ KAIST ...| Interested in the accelearation of CAE using AI :D
+author_bio: Jiyong Kim @ KAIST | Interested in the accelearation of CAE using AI :D
 author_email: "sbo05050@kaist.ac.kr"
 author_location: South Korea
 typewrite-text: TBD
-hero_cover_img: profile.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # # Experiences
 # author_work_experiences:
