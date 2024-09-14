@@ -10,16 +10,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
-    - text: About
-      url: /about
+    - text: About Me
+      url: /about me
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    - text: Contact Me
+      url : /contact me
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
