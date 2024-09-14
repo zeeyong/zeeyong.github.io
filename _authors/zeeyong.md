@@ -1,7 +1,7 @@
 ---
 name: Jiyong Kim
 username: zeeyong
-bio: "Jiyong Kim, Ph.D. student @ KAIST in South Korea "
+bio: "Jiyong Kim, Ph.D. student @ KAIST in South Korea"
 site: https://zeeyong.github.io/#/
 avatar: Jiyong_pic.jpg # 수정해야함.
 email: sbo05050@kaist.ac.kr
