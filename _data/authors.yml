@@ -2,7 +2,7 @@
 zeeyong:
    name: Jiyong Kim
    username: zeeyong
-  #  site: http://johndoe.com
+   site: http://johndoe.com
    avatar: johndoe.png
    bio: "Hi I'm Jiyong Kim. ~~~."
    email: sbo05050@kaist.ac.kr
@@ -13,7 +13,7 @@ zeeyong:
         url: "https://www.linkedin.com/in/jiyong-kim-8b9635238/"
       - title: "instagram"
         url: "https://instagram.com/zeee_yong"
-        
+
 # xplor4r:
 #    name: Sujay kundu
 #    username: xplor4r
