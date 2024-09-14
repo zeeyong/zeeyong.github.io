@@ -1,4 +1,41 @@
-<a href="https://www.smartdesignlab.org/home">
-    <img src="/assets/img/SDL.jpg" alt="Smart Design Lab" style="width:200px; height:auto;">
-    Smart Design Lab
-  </a>
+<div class="sdl-container">
+    <a href="https://www.smartdesignlab.org/home" class="sdl-link">
+      <img src="/assets/img/SDL.jpg" alt="Smart Design Lab" class="sdl-logo">
+      <span class="sdl-text">Smart Design Lab</span>
+    </a>
+  </div>
+  
+  <style>
+    .sdl-container {
+      display: inline-flex;
+      align-items: center;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    
+    .sdl-container:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+  
+    .sdl-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #333;
+    }
+  
+    .sdl-logo {
+      width: 50px;
+      height: auto;
+      margin-right: 15px;
+    }
+  
+    .sdl-text {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
