@@ -11,11 +11,11 @@ urls:
     - text: Home
       url: /
     - text: About Me
-      url: /about me
+      url: /about
     - text: Blog
       url: /blog
     - text: Contact Me
-      url : /contact me
+      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -67,35 +67,27 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
-# facebook_username: johndoe
-# linkedin_username: johndoe
-# behance_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
+github_username:  zeeyong
+instagram_username: zeee_yong
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
-# disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+# # disqus_shortname: sujay-kundu
+# hyvor_talk_website_id: 476
 
-# wakatime username (coding activity)
-wakatime_username: sujaykundu777
+# # wakatime username (coding activity)
+# wakatime_username: zeeyong
 
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+# # mailchimp embedded form url (newsletter):
+# mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: sbo05050@gmail.com
 
-# releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
+# # releases - widget can be (sidebar, modal or embed)
+# olvy_organization: devlopr
+# olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
