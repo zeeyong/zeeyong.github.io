@@ -16,7 +16,7 @@ permalink: /blog/adding-categories-tags-in-posts/
 
 To add categories in blog posts all you have to do is add a **category** key with category values in frontmatter of the post :
 
-```yml
+<!-- ```yml
 ---
 category: ['GNN', 'NIN', 'Optimization']
 ---
@@ -42,7 +42,4 @@ permalink: /blog/categories/your_category_name/
  <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>
-```
-
-Using the category, all the posts associated with the category will be listed on
-`http://localhost:4000/blog/categories/your_category_name`
+``` -->
