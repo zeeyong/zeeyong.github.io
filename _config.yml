@@ -100,8 +100,8 @@ show_author_education_details: true
 show_author_project_details: true
 
 # pagination of posts
-paginate: 4
-per_page: 4
+paginate: 10
+per_page: 10
 paginate_path: "/blog/page/:num/"
 
 # minify
@@ -166,6 +166,8 @@ plugins:
   #   - configuration
   # homepage: "posts"
 
+# 날짜 미래에도 가능하도록
+future: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
