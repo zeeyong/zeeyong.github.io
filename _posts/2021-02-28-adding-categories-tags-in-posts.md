@@ -2,9 +2,9 @@
 layout: post
 title:  "Adding Multiple Categories in Posts"
 summary: "Learn how to add categories in posts"
-author: xplor4r
+author: zeeyong
 date: '2021-02-28 1:35:23 +0530'
-category: ['jekyll','guides', 'sample_category']
+category: ['GNN','NIN', 'Optimization']
 tags: jekyll
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
@@ -18,7 +18,7 @@ To add categories in blog posts all you have to do is add a **category** key wit
 
 ```yml
 ---
-category: ['jekyll', 'guides', 'sample_category']
+category: ['GNN', 'NIN', 'Optimization']
 ---
 ```
 
@@ -35,7 +35,7 @@ title: Guides
 permalink: /blog/categories/your_category_name/
 ---
 
-<h5> Posts by Category : {{ page.title }} </h5>
+<h5> {{ page.title }} </h5>  // 이름 바꿀 때 사용 (Categories 큰 제목)
 
 <div class="card">
 {% for post in site.categories.your_category_name %}
