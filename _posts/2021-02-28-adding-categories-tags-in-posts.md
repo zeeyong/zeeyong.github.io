@@ -5,7 +5,7 @@ summary: "Learn how to add categories in posts"
 author: zeeyong
 date: '2021-02-28 1:35:23 +0530'
 category: ['GNN','NIN', 'Optimization']
-tags: jekyll
+tags: zeeyong
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
 usemathjax: false
