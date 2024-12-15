@@ -9,7 +9,7 @@ design:
   spacing: "5rem"
 
 sections:
-  - block: biography
+  - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -22,7 +22,7 @@ sections:
       css_class: light
       css_style: "font-size: 1.5rem;"  # 글자 크기를 1.5rem으로 설정
       background:
-        color: grey
+        color: white
         image:
           # Add your image background to `assets/media/`.
           filename: scattered-forcefields.svg
