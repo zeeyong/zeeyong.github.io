@@ -8,7 +8,7 @@ last_name: Kim
 
 # Status emoji
 status: 
-  icon: 🎓🧑‍🎓️📃
+  icon: 🧑‍🎓️
 
 # Is this the primary user of the site?
 superuser: true
@@ -28,7 +28,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'sbo05050@kaist.ac.kr'
+    url: 'mailto:sbo05050@kaist.ac.kr'
     label: E-mail Me
   - icon: brands/instagram
     url: https://www.instagram.com/zeee_yong/
@@ -175,9 +175,11 @@ education:
 ---
 
 ## About Me
-I am a Ph.D. student at the Cho Chun Shik Graduate School of Mobility, KAIST, under the guidance of Prof. Namwoo Kang at the Smart Design Lab. My research aims to push the boundaries of engineering design and optimization by leveraging AI techniques to tackle complex physical problems. Specifically, my work focuses on:
+I am a Ph.D. student at the Cho Chun Shik Graduate School of Mobility, KAIST, under the guidance of Prof. Namwoo Kang at the Smart Design Lab. My research aims to push the boundaries of engineering design and optimization by leveraging AI techniques to tackle complex physical problems. 
+
+<!-- Specifically, my work focuses on:
 
  - AI-based Surrogate Models for efficient and accurate design optimization.
  - Developing predictive AI models for complex physics systems, enabling precise simulations and analysis.
 
-My journey began with a BSc in Mechatronics Engineering from KOREATECH, followed by an MSc at KAIST, where I developed a deep passion for integrating AI into engineering. My research focuses on utilizing AI-driven surrogate models to tackle challenges in spatio-temporal dynamics, enabling the transformation of traditional design processes into adaptive and efficient systems. I am committed to advancing engineering innovation by making AI an indispensable tool in solving complex real-world problems.
+My journey began with a BSc in Mechatronics Engineering from KOREATECH, followed by an MSc at KAIST, where I developed a deep passion for integrating AI into engineering. My research focuses on utilizing AI-driven surrogate models to tackle challenges in spatio-temporal dynamics, enabling the transformation of traditional design processes into adaptive and efficient systems. I am committed to advancing engineering innovation by making AI an indispensable tool in solving complex real-world problems. -->
