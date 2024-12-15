@@ -19,9 +19,9 @@ sections:
       #   text: Download CV
       #   url: uploads/resume.pdf
     design:
-      css_class: light; "text-black"  # 사용자 정의 클래스 추가
+      css_class: primary
       background:
-        color: white
+        color: black
         image:
           # Add your image background to `assets/media/`.
           filename: scattered-forcefields.svg
