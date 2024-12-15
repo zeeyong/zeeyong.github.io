@@ -1,7 +1,7 @@
 ---
 title: 'Publications'
-date: 2024-12-15
-type: landing
+# date: 2024-12-15
+# type: landing
 
 design:
   # Section spacing

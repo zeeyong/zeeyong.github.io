@@ -1,15 +1,15 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2024-12-15
-type: landing
+# date: 2024-12-15
+# type: landing
 
 design:
   # Default section spacing
   spacing: "5rem"
 
 sections:
-  - block: resume-biography-4
+  - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -45,16 +45,16 @@ sections:
     design:
       columns: '1'
       
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ""
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
 
   # - block: collection
   #   id: news
