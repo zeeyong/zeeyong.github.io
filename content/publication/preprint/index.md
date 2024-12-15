@@ -30,7 +30,8 @@ featured: true
 links:
 - name: ARXIV
   url: https://arxiv.org/abs/2411.01848
-url_pdf: https://arxiv.org/abs/2411.01848
+  
+url_pdf: https://arxiv.org/pdf/2411.01848
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'
