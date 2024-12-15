@@ -10,8 +10,8 @@ authors:
 - Sunwoong Yang*
 - Namwoo Kang*
 author_notes:
-- "Equal contributions"
-- "Equal contributions"
+- ""
+- ""
 - ""
 - ""
 - ""
