@@ -31,7 +31,7 @@ links:
   url: https://arxiv.org/abs/2411.01848
 
 url_pdf: https://arxiv.org/pdf/2411.01848
-# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_arxiv: 'https://arxiv.org/abs/2411.01848'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
