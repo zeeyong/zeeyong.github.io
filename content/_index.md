@@ -24,7 +24,8 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: scattered-forcefields2.png
+          # filename: scattered-forcefields2.png
+          filename: wavey-fingerprint.svg
           filters:
             brightness: 1.0
           size: cover
