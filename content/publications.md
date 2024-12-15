@@ -20,8 +20,8 @@ sections:
       view: article-grid
       fill_image: false
       columns: 3
-      
-    - block: collection
+    
+  - block: collection
     content:
       title: Recent Publications
       text: ""
