@@ -11,7 +11,7 @@ design:
 sections:
   - block: collection
     content:
-      title: International Journals
+      title: Journals
       text: ""
       filters:
         folders:
@@ -22,7 +22,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: International Conferences
+      title: Conferences
       text: ""
       filters:
         folders:
