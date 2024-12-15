@@ -13,7 +13,10 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: "1234"
+      title: 'About Me'
+      subtitle: ''
+      text: |-
+        1234
       # # Show a call-to-action button under your biography? (optional)
       # # button:
       #   text: Download CV
@@ -43,7 +46,7 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-
+      
   # - block: collection
   #   content:
   #     title: Recent Publications
