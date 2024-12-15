@@ -32,6 +32,8 @@ publication_types: ['paper-conference']
 publication: International Conference of the Theoretical and Applied Mechanics 
 publication_short: ICTAM 2024
 
+abstract: ""
+
 # Summary. An optional shortened abstract.
 summary: This study proposes a graph neural network-based surrogate model for predicting dynamic ball drop tests, ensuring the impact resistance and structural stability of layered OLED display panels. Our framework transforms mesh data into a graph representation and follows an encoder-processor-decoder architecture. The model incorporates non-penetration constraints into the loss function, improving accuracy and maintaining physical consistency. As a result, the model can predict stress and behavior for the entire time-step using only initial state mesh data and the forward-euler method for subsequent step predictions. Finally, we conduct design optimization to balance structural stability and cost. This novel framework aims to develop robust and reliable OLEDdisplays while considering both mechanical performance and cost.
 
@@ -80,7 +82,7 @@ projects: []
 slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -88,4 +90,4 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the _Slides_ button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
