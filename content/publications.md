@@ -21,17 +21,14 @@ sections:
       view: article-grid
       fill_image: false
       columns: 1
-
-# Page sections
-sections:
   - block: collection
     content:
       title: CONFERENCE
       subtitle: International Conference
       text: ∗ denotes corresponding author, † denotes equal contribution.
-      # filters:
-      #   folders:
-      #     - publication
+      filters:
+        folders:
+          - publication
     design:
       view: article-grid
       fill_image: false
