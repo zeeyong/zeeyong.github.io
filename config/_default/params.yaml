@@ -59,4 +59,4 @@ features:
     enable: false
   privacy_pack:
     enable: false
-  custom_css: "css/font.css"
+  font_css: "css/font.css"
