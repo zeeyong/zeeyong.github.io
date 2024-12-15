@@ -26,7 +26,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication
+          - conference
     design:
       view: article-grid
       fill_image: false
