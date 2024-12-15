@@ -1,6 +1,6 @@
 ---
 title: 'Publications'
-date: {year}-{month}-{day}
+date: 2024-12-15
 type: landing
 
 design:
