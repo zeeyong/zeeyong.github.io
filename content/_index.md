@@ -1,8 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-# date: 2024-12-15
-# type: landing
+date: 2024-12-15
+type: landing
 
 design:
   # Default section spacing
@@ -19,7 +19,7 @@ sections:
       #   text: Download CV
       #   url: uploads/resume.pdf
     design:
-      css_class: light
+      css_class: light; "text-black"  # 사용자 정의 클래스 추가
       background:
         color: white
         image:
@@ -30,6 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
+        
 
   - block: markdown
     content:

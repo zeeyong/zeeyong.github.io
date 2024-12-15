@@ -1,7 +1,7 @@
 ---
 title: 'Publications'
-# date: 2024-12-15
-# type: landing
+date: 2024-12-15
+type: landing
 
 design:
   # Section spacing
@@ -9,6 +9,17 @@ design:
 
 # Page sections
 sections:
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
+
   - block: collection
     content:
       title: Publications
@@ -20,15 +31,4 @@ sections:
       view: article-grid
       fill_image: false
       columns: 3
-    
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
 ---

@@ -1,0 +1,11 @@
+body {
+    color: black !important; /* 텍스트를 항상 검은색으로 설정 */
+}
+
+.light-mode {
+    color: black !important;
+}
+
+.dark-mode {
+    color: black !important;
+}
