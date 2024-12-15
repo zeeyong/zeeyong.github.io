@@ -30,7 +30,6 @@ sections:
           size: cover
           position: center
           parallax: false
-        css_style: "z-index: -1; position: absolute;" # 배경 이미지를 뒤로 보내기
 
   - block: markdown
     content:
@@ -45,16 +44,16 @@ sections:
     design:
       columns: '1'
       
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
 
   # - block: collection
   #   id: news
