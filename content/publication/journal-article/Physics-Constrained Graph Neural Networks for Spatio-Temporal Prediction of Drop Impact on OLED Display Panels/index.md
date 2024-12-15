@@ -40,6 +40,7 @@ tags:
 - Graph neural network
 - Drop impact test
 - Spatio-temporal dynamics
+- Design optimization
 
 featured: false
 
