@@ -1,16 +1,29 @@
 ---
-title: "An example journal article"
-authors:
-- admin
-- Robert Ford
+title: "Physics-Constrained Graph Neural Networks for Spatio-Temporal Prediction of Drop Impact on OLED Display Panels"
+authors: 
+- Jiyong Kim
+- Jangseop Park
+- Nayong Kim
+- Younyeol Yu
+- Kiseok Chang
+- Chang-Seung Woo
+- Sunwoong Yang*
+- Namwoo Kang*
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- "corresponding author"
+- "corresponding author"
+
+date: "2024-11-04T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-11-04T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,53 +31,47 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "ArXiv Preprint 2024"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+abstract: This study aims to predict the spatio-temporal evolution of physical quantities observed in multi-layered display panels subjected to the drop impact of a ball. To model these complex interactions, graph neural networks have emerged as promising tools, effectively representing objects and their relationships as graph structures. In particular, MeshGraphNets (MGNs) excel in capturing dynamics in dynamic physics simulations using irregular mesh data. However, conventional MGNs often suffer from non-physical artifacts, such as the penetration of overlapping objects. To resolve this, we propose a physics-constrained MGN that mitigates these penetration issues while maintaining high level of accuracy in temporal predictions. Furthermore, to enhance the model’s robustness, we explore noise injection strategies with varying magnitudes and different combinations of targeted components, such as the ball, the plate, or both. In addition, our analysis on model stability in spatio-temporal predictions reveals that during the inference, deriving next time-step node positions by predicting relative changes (e.g., displacement or velocity) between the current and future states yields superior accuracy compared to direct absolute position predictions. This approach consistently shows greater stability and reliability in determining subsequent node positions across various scenarios. Building on this validated model, we evaluate its generalization performance by examining its ability to extrapolate with respect to design variables. Furthermore, the physics-constrained MGN serves as a near real-time emulator for the design optimization of multi-layered OLED display panels, where thickness variables are optimized to minimize stress in the light-emitting materials. It outperforms conventional MGN in optimization tasks, demonstrating its effectiveness for practical design applications.
 
 tags:
-- Source Themes
+- Graph neural network
+- Drop impact test
+- Spatio-temporal dynamics
+
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+links:
+- name: ARXIV
+  url: https://arxiv.org/abs/2411.01848
+- name: PDF
+  url: https://arxiv.org/pdf/2411.01848
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
+# # Associated Projects (optional).
+# #   Associate this publication with one or more of your projects.
+# #   Simply enter your project's folder or file name without extension.
+# #   E.g. `internal-project` references `content/project/internal-project/index.md`.
+# #   Otherwise, set `projects: []`.
 projects: []
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+# # Slides (optional).
+# #   Associate this publication with Markdown slides.
+# #   Simply enter your slide deck's filename without extension.
+# #   E.g. `slides: "example"` references `content/slides/example/index.md`.
+# #   Otherwise, set `slides: ""`.
 slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -72,4 +79,4 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
