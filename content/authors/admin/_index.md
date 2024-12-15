@@ -17,7 +17,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. student in Cho Chun Shik Graduate School of Mobility at KAIST
+role: Ph.D. student at KAIST
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -65,7 +65,7 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc in Mechatronics engineering
+  - area: BSc degree in Mechatronics engineering
     institution: KOREATECH
     date_start: 2021-08-27
     date_end: 2017-03-01
