@@ -48,7 +48,7 @@ sections:
   - block: collection
     content:
       title: Recent Publications
-      text: ""
+      text: " ∗ denotes corresponding author, † denotes equal contribution. "
       filters:
         folders:
           - publication

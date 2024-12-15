@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: International Journals
-      text: ∗ denotes corresponding author, † denotes equal contribution.
+      text: ""
       filters:
         folders:
           - publication
@@ -23,12 +23,12 @@ sections:
   - block: collection
     content:
       title: International Conferences
-      text: ∗ denotes corresponding author, † denotes equal contribution.
+      text: ""
       filters:
         folders:
           - publication
     design:
-      # view: article-grid
+      view: article-grid
       fill_image: false
       columns: 2
 ---
