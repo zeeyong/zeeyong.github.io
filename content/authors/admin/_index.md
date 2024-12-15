@@ -30,8 +30,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:sbo05050@kaist.ac.kr'
     label: E-mail Me
-  - icon: brands/instagram
-    url: https://www.instagram.com/zeee_yong/
   - icon: brands/github
     url: https://github.com/zeeyong
   - icon: brands/linkedin
