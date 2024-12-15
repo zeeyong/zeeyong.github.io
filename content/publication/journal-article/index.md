@@ -1,7 +1,7 @@
 ---
 title: "Physics-Constrained Graph Neural Networks for Spatio-Temporal Prediction of Drop Impact on OLED Display Panels"
 authors: 
-- Jiyong Kim
+- admin
 - Jangseop Park
 - Nayong Kim
 - Younyeol Yu
