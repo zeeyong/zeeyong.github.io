@@ -11,6 +11,7 @@ design:
 sections:
   - block: collection
     content:
+      offset: 0
       title: Recent Publications
       text: ""
       filters:
