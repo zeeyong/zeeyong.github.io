@@ -27,10 +27,10 @@ sections:
           # filename: scattered-forcefields2.png
           filename: scattered-forcefields.svg
           filters:
-            brightness: 1.0
+            brightness: 10.0
           size: cover
           position: center
-          parallax: false
+          parallax: true
   - block: markdown
     content:
       title: '📚 My Research'
