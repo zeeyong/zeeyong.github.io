@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: assets/css/themes/sky
+  color: sky
 
 # # SEO
 # marketing:
@@ -29,8 +29,8 @@ appearance:
 # Site header
 header:
   navbar:
-    enable: true
-    blox: "navbar"
+    enable: true 
+    blox: "navbar" 
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
