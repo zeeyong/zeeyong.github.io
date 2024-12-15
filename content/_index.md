@@ -13,10 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      title: 'About Me'
-      subtitle: ''
-      text: |-
-        1234
+      text: ""
       # # Show a call-to-action button under your biography? (optional)
       # # button:
       #   text: Download CV
@@ -33,6 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
+        css_style: "z-index: -1; position: absolute;" # 배경 이미지를 뒤로 보내기
 
   - block: markdown
     content:
