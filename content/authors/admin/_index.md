@@ -43,7 +43,7 @@ interests:
   - Design Optimization
 
 education:
-  - area: Ph.D. student in Cho Chun Shik Graduate School of Mobility
+  - course: Ph.D. student in Cho Chun Shik Graduate School of Mobility
     institution: KAIST
     date_start: 2023-08-28
     date_end: ~
@@ -52,7 +52,7 @@ education:
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
-  - area: MSc degree in Cho Chun Shik Graduate School of Mobility
+  - course: MSc degree in Cho Chun Shik Graduate School of Mobility
     institution: KAIST
     date_start: 2021-08-28
     date_end: 2023-08-27
@@ -63,7 +63,7 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc degree in Mechatronics engineering
+  - course: BSc degree in Mechatronics engineering
     institution: KOREATECH
     date_start: 2021-08-27
     date_end: 2017-03-01
