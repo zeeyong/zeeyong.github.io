@@ -1,6 +1,6 @@
 ---
 title: "Physics-Constrained Graph Neural Networks for Spatio-Temporal Prediction of Drop Impact on OLED Display Panels"
-authors: [{a href="https://scholar.google.com/citations?user=example1" target="_blank"}Jiyong Kim*</a>, Jangseop Park, Nayong Kim, Younyeol Yu, Kiseok Chang, Chang-Seung Woo, Sunwoong Yang, Namwoo Kang]
+authors: [<b style='color: blue;'>Jiyong Kim</b>, Jangseop Park, Nayong Kim, Younyeol Yu, Kiseok Chang, Chang-Seung Woo, Sunwoong Yang*, Namwoo Kang*]
 date: "2024-11-04T00:00:00Z"
 doi: ""
 

@@ -11,7 +11,6 @@ design:
 sections:
   - block: collection
     content:
-      offset: 0
       title: Recent Publications
       text: ""
       filters:
@@ -24,7 +23,7 @@ sections:
   - block: collection
     content:
       title: Publications
-      text: "* denotes corresponding author, † denotes equal contribution."
+      text: " \* denotes corresponding author, † denotes equal contribution. "
       filters:
         folders:
           - publication
