@@ -20,7 +20,7 @@ sections:
       #   url: uploads/resume.pdf
     design:
       css_class: light
-      # css_style: "font-size: 1.5rem;"  # 글자 크기를 1.5rem으로 설정
+      css_style: "color: black;"  # 텍스트 색상을 검정색으로 고정
       background:
         color: white
         image:
