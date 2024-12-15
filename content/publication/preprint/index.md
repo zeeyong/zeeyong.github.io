@@ -63,11 +63,6 @@ projects:
 slides: example
 ---
 
-### Authors
-- <a href="https://scholar.google.com/citations?user=example1" target="_blank">Jiyong Kim*</a>
-- <a href="https://scholar.google.com/citations?user=example2" target="_blank">Jangseop Park</a>
-- <a href="https://scholar.google.com/citations?user=example3" target="_blank">Nayong Kim</a>
-
 <!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 
 {{% callout note %}}
