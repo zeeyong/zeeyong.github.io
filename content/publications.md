@@ -15,7 +15,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication/journal-article
+          - publication
     design:
       view: article-grid
       fill_image: false
@@ -26,7 +26,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication/conference-paper
+          - publication
     design:
       view: article-grid
       fill_image: false
