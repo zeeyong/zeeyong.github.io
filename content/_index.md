@@ -1,15 +1,15 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2024-12-15
 type: landing
 
 design:
   # Default section spacing
-  spacing: "3rem"
+  spacing: "5rem"
 
 sections:
-  - block: resume-biography-3
+  - block: biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -21,7 +21,7 @@ sections:
     design:
       css_class: light
       background:
-        color: white
+        color: grey
         image:
           # Add your image background to `assets/media/`.
           filename: scattered-forcefields.svg
@@ -30,7 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
-      text_style: "color: black;"
+
   - block: markdown
     content:
       title: '📚 My Research'
