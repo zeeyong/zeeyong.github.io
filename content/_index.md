@@ -20,6 +20,7 @@ sections:
       #   url: uploads/resume.pdf
     design:
       css_class: light
+      css_style: "font-size: 1.5rem;"  # 글자 크기를 1.5rem으로 설정
       background:
         color: grey
         image:
