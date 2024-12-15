@@ -52,6 +52,7 @@ sections:
       filters:
         folders:
           - publication
+          - conference
         exclude_featured: false
     design:
       view: citation
