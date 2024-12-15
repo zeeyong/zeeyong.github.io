@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Publications
-      text: * denotes corresponding author, † denotes equal contribution.
+      text: "* denotes corresponding author, † denotes equal contribution."
       filters:
         folders:
           - publication
