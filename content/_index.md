@@ -22,12 +22,10 @@ sections:
       css_class: light
       css_style: "color: black;"  # 텍스트 색상을 검정색으로 고정
       background:
-        color: white
+        # color: black
         image:
           # Add your image background to `assets/media/`.
           filename: scattered-forcefields.svg
-          filters:
-            brightness: 0.0
           size: cover
           position: center
           parallax: false
