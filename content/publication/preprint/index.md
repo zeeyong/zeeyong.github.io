@@ -29,8 +29,6 @@ featured: true
 links:
 - name: ARXIV
   url: https://arxiv.org/abs/2411.01848
-
-links:
 - name: PDF
   url: https://arxiv.org/pdf/2411.01848
 
