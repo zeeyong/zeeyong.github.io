@@ -10,8 +10,8 @@
     .avatar {
       width: auto;
       height: auto;
-      max-width: 300px;
-      max-height: 300px;
+      max-width: 400px;
+      max-height: 400px;
       object-fit: cover;
     }
   
@@ -97,8 +97,8 @@
   
   .avatar-wrapper {
     position: relative;
-    width: 150px; /* Match image size in about.avatar widget */
-    height: 150px;
+    width: 250px; /* Match image size in about.avatar widget */
+    height: 250px;
     margin-left: auto;
     margin-right: auto;
   }
