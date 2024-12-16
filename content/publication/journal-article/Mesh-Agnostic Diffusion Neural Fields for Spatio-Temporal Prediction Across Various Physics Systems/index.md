@@ -7,8 +7,7 @@ author_notes:
 - ""
 - "corresponding author"
 
-# date: "2024-11-04T00:00:00Z"
-date: "Working paper"
+date: "2024-12-16T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
