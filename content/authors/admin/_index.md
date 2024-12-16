@@ -38,9 +38,9 @@ profiles:
     url: https://scholar.google.com/citations?hl=ko&user=9jbVpeYAAAAJ
 
 interests:
+  - Generative Design
   - Scientific Machine Learning
   - AI-based Surrogate Model
-  - Generative Design
   - Design Optimization
 
 education:
