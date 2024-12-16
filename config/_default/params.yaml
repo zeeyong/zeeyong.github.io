@@ -60,7 +60,3 @@ features:
   privacy_pack:
     enable: false
   font_css: "css/style.css"
-
-# Social Sharing
-sharing:
-  enable: false
