@@ -38,10 +38,11 @@ profiles:
     url: https://scholar.google.com/citations?hl=ko&user=9jbVpeYAAAAJ
 
 interests:
-  - Generative Design
+  - AI-Driven Generative Design
   - Scientific Machine Learning
-  - AI-based Surrogate Model
-  - Design Optimization
+  - Surrogate Modeling for Physical Systems
+  - Engineering Design Optimization
+  - Digital Twin Technology
 
 education:
   - area: Ph.D. student in Cho Chun Shik Graduate School of Mobility
@@ -61,7 +62,7 @@ education:
 
 ---
 ## About Me
-I am a Ph.D. student at [Cho Chun Shik Graduate School of Mobility, KAIST](https://mo.kaist.ac.kr/en/), working under the supervision of Prof. [Namwoo Kang](https://scholar.google.com/citations?hl=en&user=tYU_Cz0AAAAJ&view_op=list_works&sortby=pubdate) at Smart Design Lab. My research aims to advance engineering design and optimization by developing <span style="color:blue;">AI-driven surrogate models</span> that efficiently approximate and analyze complex physical systems. These models enable faster and more adaptive solutions, pushing the boundaries of traditional design processes.
+I am a Ph.D. student at [Cho Chun Shik Graduate School of Mobility, KAIST](https://mo.kaist.ac.kr/en/), working under the supervision of Prof. [Namwoo Kang](https://scholar.google.com/citations?hl=en&user=tYU_Cz0AAAAJ&view_op=list_works&sortby=pubdate) at Smart Design Lab. My research aims to advance engineering design and optimization by developing AI-driven surrogate models that efficiently approximate and analyze complex physical systems. These models enable faster and more adaptive solutions, pushing the boundaries of traditional design processes.
 
 
 <!-- Specifically, my work focuses on:
