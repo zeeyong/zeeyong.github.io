@@ -38,11 +38,11 @@ profiles:
     url: https://scholar.google.com/citations?hl=ko&user=9jbVpeYAAAAJ
 
 interests:
-  - AI-Driven Generative Design
-  - Scientific Machine Learning
-  - Surrogate Modeling for Physical Systems
-  - Engineering Design Optimization
-  - Digital Twin Technology
+- AI-Driven Generative Design
+- Scientific Machine Learning
+- Surrogate Modeling for Physical Systems
+- Engineering Design Optimization
+- Digital Twin Technology
 
 education:
   - area: Ph.D. student in Cho Chun Shik Graduate School of Mobility
