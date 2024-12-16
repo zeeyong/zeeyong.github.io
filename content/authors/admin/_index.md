@@ -60,7 +60,9 @@ education:
 
 ---
 ## About Me
-I am a Ph.D. student at [Cho Chun Shik Graduate School of Mobility, KAIST](https://mo.kaist.ac.kr/en/), under the guidance of Prof. Namwoo Kang at the Smart Design Lab. My research aims to push the boundaries of engineering design and optimization by leveraging AI techniques to tackle complex physical problems.
+I am a Ph.D. student at <span style="color:blue;">[Cho Chun Shik Graduate School of Mobility, KAIST](https://mo.kaist.ac.kr/en/)</span>, working under the supervision of Prof. Namwoo Kang at the Smart Design Lab. My research aims to advance engineering design and optimization by developing AI-driven surrogate models that efficiently approximate and analyze complex physical systems. These models enable faster and more adaptive solutions, pushing the boundaries of traditional design processes.
+
+
 <!-- Specifically, my work focuses on:
 
  - AI-based Surrogate Models for efficient and accurate design optimization.
