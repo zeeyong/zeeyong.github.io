@@ -39,6 +39,7 @@ profiles:
 
 interests:
   - Scientific Machine Learning
+  - AI-based Surrogate Model
   - Generative Design
   - Design Optimization
 
