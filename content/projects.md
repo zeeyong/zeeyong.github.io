@@ -22,7 +22,7 @@ sections:
       columns: 3
   - block: collection
     content:
-      title: Past Projects
+      title: Completed Projects
       text: 
       filters:
         folders:
