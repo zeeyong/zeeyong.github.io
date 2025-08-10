@@ -15,8 +15,7 @@ sections:
       text: 
       filters:
         folders:
-          - project
-          - ongoing
+          - project [ongoing]
     design:
       view: article-grid
       fill_image: false
@@ -27,8 +26,7 @@ sections:
       text: 
       filters:
         folders:
-          - project
-          - completed
+          - project [completed]
     design:
       view: article-grid
       fill_image: false
