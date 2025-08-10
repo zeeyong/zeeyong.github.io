@@ -5,6 +5,11 @@ tags:
   - AI-based Generatvie Design 
   - TV stand
   - DL-based Inverse Design
+
+# Display this page in the Featured widget?
+featured: true
+Inverse design: true
+
 ---
 AI-based Generative Design for TV Stand Design
 (2021.3 - 2021.12)
