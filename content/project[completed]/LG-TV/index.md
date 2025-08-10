@@ -6,13 +6,11 @@ tags:
   - TV stand
   - DL-based Inverse Design
 
-# Display this page in the Featured widget?
-featured: "Inverse design.jpg"  # 또는 "featured.jpg"
-Inverse design: true
-
 ---
 AI-based Generative Design for TV Stand Design
 (2021.3 - 2021.12)
+
+![TV Stand Generative Design](Inverse%20design.jpg)
 
 - We developed a data generation process for deep learning training using parametric design techniques for TV stands.
 
