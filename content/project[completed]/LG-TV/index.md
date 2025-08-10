@@ -1,6 +1,6 @@
 ---
-title: Generative AI-driven Parametric Design to Accelerate the Development of Vehicle Closure Systems
-date: 2023-10-26
+title: 인공지능 기반 제너레이티브 디자인을 통한 TV 구조설계
+date_range: "2020–2021"
 external_link: https://github.com/pandas-dev/pandas
 tags:
   - Hugo
