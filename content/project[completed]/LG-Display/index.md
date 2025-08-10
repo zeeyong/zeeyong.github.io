@@ -15,7 +15,7 @@ Development of an AI Model for Mobile Display Panel Stress Prediction Using Mesh
 
 ![Drop Impact](dropimpact.jpg)
 
-- We achieved over 80% agreement in predicting maximum panel stress compared to commercial simulation programs (e.g., ANSYS, ABAQUS).
+- We achieved over 80% accuracy in predicting maximum panel stress compared to commercial simulation programs (e.g., ANSYS, ABAQUS).
 
 - We reduced cost and time while improving speed and efficiency by applying the AI model compared to conventional dynamic analysis methods.
 
