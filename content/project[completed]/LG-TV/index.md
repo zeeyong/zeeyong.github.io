@@ -1,6 +1,6 @@
 ---
 title: "TV 설계자동화 : AI GENERATIVE DESIGN 기반 설계자동화"
-date: 2021-01-01
+date: 2021-12-01
 tags:
   - AI-based Generatvie Design 
   - TV stand
