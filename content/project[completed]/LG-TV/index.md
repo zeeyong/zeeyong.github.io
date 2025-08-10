@@ -1,15 +1,12 @@
 ---
 title: 인공지능 기반 제너레이티브 디자인을 통한 TV 구조설계
 date: 2021-01
-date_start: 2020-01  
-date_end: 2021-01    
-external_link: https://github.com/pandas-dev/pandas
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - AI-based Generatvie Design 
+  - TV stand
+  - DL-based Inverse Design
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+AI-based Generative Design for TV Structural Engineering
 
 <!--more-->
