@@ -36,7 +36,7 @@ featured: false
 
 links:
 - name: ARXIV
-  url: https://www.arxiv.org/pdf/2508.01230
+  url: https://www.arxiv.org/abs/2508.01230
 - name: PDF
   url: https://www.arxiv.org/pdf/2508.01230
 
