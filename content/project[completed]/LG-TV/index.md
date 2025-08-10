@@ -1,5 +1,5 @@
 ---
-title: 인공지능 기반 제너레이티브 디자인을 통한 TV 구조설계
+title: "TV 설계자동화 : AI GENERATIVE DESIGN 기반 설계자동화"
 date: 2021-01-01
 tags:
   - AI-based Generatvie Design 
@@ -7,6 +7,7 @@ tags:
   - DL-based Inverse Design
 ---
 AI-based Generative Design for TV Stand Design
+(2021.3 - 2021.12)
 
 - We developed a data generation process for deep learning training using parametric design techniques for TV stands.
 
