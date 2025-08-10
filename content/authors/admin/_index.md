@@ -38,10 +38,9 @@ profiles:
     url: https://scholar.google.com/citations?hl=ko&user=9jbVpeYAAAAJ
 
 interests:
-- AI-Driven Generative Design
 - Scientific Machine Learning
-- Surrogate Modeling for Physical Systems
-- Engineering Design Optimization
+- AI-based Surrogate Modeling for Physical Systems
+- Design Optimization in Engineering Systems
 - Digital Twin Technology
 
 education:
