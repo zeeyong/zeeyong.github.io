@@ -11,8 +11,6 @@ tags:
 AI-based Generative Design for TV Stand Design
 (2021.3 - 2021.12)
 
-![TV Stand Generative Design](Inverse%20design.jpg)
-
 - We developed a data generation process for deep learning training using parametric design techniques for TV stands.
 
 - We built a deep learning model to predict the maximum stress value and stand weight.
