@@ -7,7 +7,7 @@ tags:
   - DL-based Inverse Design
 
 # Display this page in the Featured widget?
-featured: true
+featured: "Inverse design.jpg"  # 또는 "featured.jpg"
 Inverse design: true
 
 ---
