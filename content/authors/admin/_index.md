@@ -40,8 +40,8 @@ profiles:
 interests:
 - Scientific Machine Learning
 - AI-based Surrogate Modeling for Physical Systems
-- Design Optimization in Engineering Systems
-- Digital Twin Technology
+- Constrained Layout Optimization 
+- Reinforcement Learning
 
 education:
   - area: Ph.D. student in Cho Chun Shik Graduate School of Mobility
