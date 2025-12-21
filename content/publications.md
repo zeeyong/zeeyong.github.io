@@ -39,7 +39,6 @@ sections:
         folders:
           - conferences[korean]
     design:
-      view: article-grid
+      view: list
       fill_image: false
-      columns: 2
 ---
