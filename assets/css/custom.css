@@ -1,34 +1,28 @@
-/* ================================
-   Citation view: [1], [2] numbering
-   ================================ */
+/* Korean Conferences 자동 번호 및 간격 */
 
-.view-citation .citation {
-  counter-reset: pub;
+/* conferences[korean] 섹션의 제목과 리스트 간격 */
+.conferences\[korean\] h2 {
+  margin-bottom: 3rem !important;
 }
 
-.view-citation .citation li {
-  list-style: none;
-  counter-increment: pub;
+/* 카운터 초기화 */
+div[data-view="citation"] {
+  counter-reset: conf-counter;
+}
+
+/* conferences[korean] 섹션의 모든 항목에 자동 번호 */
+.conferences\[korean\] .pub-list-item,
+div[data-view="citation"] .pub-list-item {
+  counter-increment: conf-counter;
   position: relative;
-  padding-left: 2.2em;
+  padding-left: 3rem;
 }
 
-.view-citation .citation li::before {
-  content: "[" counter(pub) "]";
+/* 번호 표시 [1], [2], [3] */
+.conferences\[korean\] .pub-list-item::before,
+div[data-view="citation"] .pub-list-item::before {
+  content: "[" counter(conf-counter) "]";
   position: absolute;
   left: 0;
   font-weight: 600;
-}
-
-
-/* ==========================================
-   Reduce gap between section title and list
-   ========================================== */
-
-.section-heading {
-  margin-bottom: 0.6rem !important;
-}
-
-.view-citation .citation {
-  margin-top: 0.3rem !important;
 }

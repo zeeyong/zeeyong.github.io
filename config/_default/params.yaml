@@ -62,4 +62,4 @@ features:
   font_css: "css/style.css"
 
 custom_css:
-  - css/custom.css
+  - "css/custom.css"
