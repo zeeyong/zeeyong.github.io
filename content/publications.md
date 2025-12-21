@@ -38,8 +38,9 @@ sections:
       filters:
         folders:
           - conferences[korean]
-      limit: 0
-      show_more: false
+      count: 0
+      archive: 
+        enable: false
     design:
       view: citation
 ---
