@@ -39,6 +39,6 @@ sections:
         folders:
           - conferences[korean]
     design:
-      view: compact
+      view: citation
       fill_image: false
 ---
