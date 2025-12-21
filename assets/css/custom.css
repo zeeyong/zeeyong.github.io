@@ -1,20 +1,27 @@
-/* Korean Conferences 자동 번호 및 간격 - JavaScript 버전 */
+/* Korean Conferences 자동 번호 및 간격 */
 
 /* 1. Korean Conferences 제목 아래 간격 */
 section:nth-of-type(3) .mb-6.text-3xl {
   margin-bottom: -3rem !important;
 }
 
-/* 각 항목 기본 스타일 유지 */
+/* 2. 전체 리스트 컨테이너에 카운터 초기화 */
+.flex.flex-col.space-y-3 {
+  counter-reset: conf-counter;
+  display: flex;
+  flex-direction: column-reverse !important;  /* 순서 뒤집기 */
+}
+
+/* 3. 각 pub-list-item에 번호 추가 */
 .pub-list-item.view-citation {
+  counter-increment: conf-counter !important;  /* -1로 변경 */
   position: relative !important;
   padding-left: 3.5rem !important;
   margin-bottom: 1rem !important;
 }
 
-/* 번호 표시: JS가 넣어준 --conf-num 값을 사용 */
 .pub-list-item.view-citation::before {
-  content: "[" var(--conf-num) "]" !important;
+  content: "[" counter(conf-counter) "]" !important;
   position: absolute !important;
   left: 0 !important;
   top: 0 !important;
@@ -23,7 +30,7 @@ section:nth-of-type(3) .mb-6.text-3xl {
   font-size: 1rem !important;
 }
 
-/* 다크모드 대응 */
+/* 4. 다크모드 대응 */
 .dark .pub-list-item.view-citation::before {
   color: #fff !important;
 }
