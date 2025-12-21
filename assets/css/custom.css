@@ -6,19 +6,19 @@ section:nth-of-type(3) .mb-6.text-3xl {
 }
 
 /* 2. 전체 리스트 컨테이너에 카운터 초기화 */
-.flex.flex-col.space-y-3 {
+section:nth-of-type(3) .flex.flex-col.space-y-3 {
   counter-reset: conf-counter 8;
 }
 
 /* 3. 각 pub-list-item에 번호 추가 */
-.pub-list-item.view-citation {
+section:nth-of-type(3) .pub-list-item.view-citation {
   counter-increment: conf-counter -1 !important;  /* -1로 변경 */
   position: relative !important;
   padding-left: 3.5rem !important;
   margin-bottom: 1rem !important;
 }
 
-.pub-list-item.view-citation::before {
+section:nth-of-type(3) .pub-list-item.view-citation::before {
   content: "[" counter(conf-counter) "]" !important;
   position: absolute !important;
   left: 0 !important;
@@ -29,6 +29,6 @@ section:nth-of-type(3) .mb-6.text-3xl {
 }
 
 /* 4. 다크모드 대응 */
-.dark .pub-list-item.view-citation::before {
+section:nth-of-type(3) .dark .pub-list-item.view-citation::before {
   color: #fff !important;
 }
