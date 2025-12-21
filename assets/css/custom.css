@@ -7,14 +7,12 @@ section:nth-of-type(3) .mb-6.text-3xl {
 
 /* 2. 전체 리스트 컨테이너에 카운터 초기화 */
 .flex.flex-col.space-y-3 {
-  counter-reset: conf-counter;
-  display: flex;
-  flex-direction: column-reverse !important;  /* 순서 뒤집기 */
+  counter-reset: conf-counter 8;
 }
 
 /* 3. 각 pub-list-item에 번호 추가 */
 .pub-list-item.view-citation {
-  counter-increment: conf-counter !important;  /* -1로 변경 */
+  counter-increment: conf-counter -1 !important;  /* -1로 변경 */
   position: relative !important;
   padding-left: 3.5rem !important;
   margin-bottom: 1rem !important;
