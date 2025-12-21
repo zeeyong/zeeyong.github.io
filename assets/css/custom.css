@@ -2,7 +2,7 @@
 
 /* 1. Korean Conferences 제목 아래 간격 */
 .mb-6.text-3xl {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 /* 2. 전체 리스트 컨테이너에 카운터 초기화 */
@@ -12,10 +12,10 @@
 
 /* 3. 각 pub-list-item에 번호 추가 */
 .pub-list-item.view-citation {
-  counter-increment: conf-counter !important;
+  counter-increment: conf-counter -1 !important;  /* -1로 변경 */
   position: relative !important;
-  padding-left: 3.5rem !important;
-  margin-bottom: 2rem !important;
+  padding-left: 1.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .pub-list-item.view-citation::before {
