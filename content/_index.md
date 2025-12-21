@@ -45,17 +45,17 @@ sections:
   #   design:
   #     columns: '1'
       
-  - block: collection
-    content:
-      title: Recent Publications
-      text: " ∗ denotes corresponding author, † denotes equal contribution. "
-      filters:
-        folders:
-          - publication
-          - conference
-        exclude_featured: false
-    design:
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: " ∗ denotes corresponding author, † denotes equal contribution. "
+  #     filters:
+  #       folders:
+  #         - publication
+  #         - conference
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
 
   # - block: collection
   #   id: news
