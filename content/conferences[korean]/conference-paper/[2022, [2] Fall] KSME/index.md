@@ -1,25 +1,27 @@
 ---
-title: 'Point-based Diffusion Model for Predicting Spatio-Temporal Dynamics in Physical Systems'
+title: 'Large-scale Layout Optimization for Chemical Plant'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Sunwoong Yang
+  - Ungki Lee
+  - Yongmin Kwon
   - Namwoo Kang*
 
 # Author notes (optional)
 author_notes:
   - ""
   - ""
+  - ""
   - "corresponding author"
 
-date: '2025-12-09T00:00:00Z'
+date: '2022-11-10T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-12-09T00:00:00Z'
+publishDate: '2022-11-10T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -27,20 +29,18 @@ publishDate: '2025-12-09T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: The 9th Asian Pacific Congress on Computational Mechanics/The 7th Australasian Conference on Computational Mechanics (APCOM-ACCM 2025)
-publication_short: APCOM 2025
+publication: Korean Society of Mechanical Engineers (KSME 2022)
+publication_short: KSME 2022 Fall
 
-abstract: Conventional diffusion models applied to physics prediction rely on grid-based and snapshot-level representations, limiting their adaptability to irregular domains and geometric variability. This study introduces a novel point-wise conditional diffusion framework that enables efficient and generalizable prediction of complex physical systems with diverse and irregular geometries, without relying on fixed grids. We validate this approach across 2D spatio-temporal systems (Eulerian and Lagrangian) and 3D large-scale aerodynamics, demonstrating robust generalization to diverse geometric complexities.
+abstract: Facility layout problem is a problem that has a major economic impact on the construction of industrial facilities. In addition, considering the potential factors and the efficiency of the process, the question of how to place the equipment is also a matter of considerable experience and creativity. A well-designed facility can lead to huge plant construction costs reduction, increased efficiency, and reduced use of the facility, and can handle emergencies well. Until now, plant equipment has been placed with experience by field experienced advisers in the field, but a design that relies solely on expert experience will not yield an optimized design that meets all constraints. Therefore, there is a need for optimization design using computers. This study aims to minimize the area and pipe length of the plant by optimizing the layout of multi-layer process plant equipment with the design data of the SRIP plant in Oman. Unlike previous studies, we propose an algorithm that creates an layout optimization that can be applied to the real industry by fusing the genetic algorithm (GA) and multidisciplinary design optimization (MDO) methodologies. In conclusion, it is possible to optimize the multi-layer process plant equipment in the battery limit of the plant while satisfying numerous constraints, and to present a best equipment layout with an optimal area and pipe length.
 
 # Summary. An optional shortened abstract.
 summary: ''
 
 tags:
-  - Scientific machine learning
-  - Point-wise conditional diffusion models
-  - 2D Spatio-temporal systems
-  - 3D Large-scale systems
-  - Shape variations
+  - Plant design
+  - Layout optimization
+  - Design optimization
 
 # Display this page in the Featured widget?
 featured: true
