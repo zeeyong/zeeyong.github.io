@@ -1,13 +1,14 @@
 ---
-title: 'Design Optimization of OLED Display Panels for Drop Impact Resistance Using A Graph Neural Network'
+title: 'Safe Reinforcement Learning for 3D Large Scale Constrained Layout Optimization'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Jangseop Park 
-  - Sunwoong Yang
+  - Seokjun Kim
+  - Sanghoon Jin
+  - Yubin Lee
   - Namwoo Kang*
 
 # Author notes (optional)
@@ -15,13 +16,14 @@ author_notes:
   - ""
   - ""
   - ""
+  - ""
   - "corresponding author"
 
-date: '2024-08-29T00:00:00Z'
+date: '2025-12-12T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-08-29T00:00:00Z'
+publishDate: '2025-12-12T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -29,19 +31,19 @@ publishDate: '2024-08-29T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: International Conference of the Theoretical and Applied Mechanics (ICTAM 2024)
-publication_short: ICTAM 2024
+publication: Korean Society of Mechanical Engineers (KSME 2025)
+publication_short: KSME 2025 Fall
 
-abstract: This study proposes a graph neural network-based surrogate model for predicting dynamic ball drop tests, ensuring the impact resistance and structural stability of layered OLED display panels. Our framework transforms mesh data into a graph representation and follows an encoder-processor-decoder architecture. The model incorporates non-penetration constraints into the loss function, improving accuracy and maintaining physical consistency. As a result, the model can predict stress and behavior for the entire time-step using only initial state mesh data and the forward-euler method for subsequent step predictions. Finally, we conduct design optimization to balance structural stability and cost. This novel framework aims to develop robust and reliable OLED displays while considering both mechanical performance and cost.
+abstract: In this work, we propose a safe reinforcement learning framework for large-scale layout optimization under complex constraints. The problem is formulated as a constrained Markov decision process (CMDP), where the placement of objects is represented as hybrid actions consisting of continuous coordinates and discrete floor/rotation indices. To enforce constraints during training, we employ a constrained actor–critic architecture, in which the policy network is trained jointly with reward and cost critics. After reinforcement learning converges, the near-optimal layouts obtained from the safe reinforcement learning agent are further refined through fine-grained optimization using metaheuristic search, which improves objective values and constraint satisfaction. We expect that our two-stage approach effectively balances exploration and constraint enforcement, achieving competitive performance while reducing constraint violations in layout optimization tasks.
 
 # Summary. An optional shortened abstract.
 summary: ''
 
 tags:
-  - Graph neural network
-  - Drop impact test
-  - Spatio-temporal dynamics
-  - Design optimization
+  - 3D layout optimization
+  - Constrained optimization
+  - NP-hard
+  - Safe reinforcement learning
 
 # Display this page in the Featured widget?
 featured: true
