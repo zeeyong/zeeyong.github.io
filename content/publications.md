@@ -38,8 +38,8 @@ sections:
       filters:
         folders:
           - conferences[korean]
-      limit: 100
+      limit: 0
+      show_more: false
     design:
       view: citation
-      fill_image: false
 ---
