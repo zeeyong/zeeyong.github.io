@@ -26,7 +26,7 @@ sections:
       text: ""
       filters:
         folders:
-          - conferences[internaltional]
+          - conferences[international]
     design:
       view: article-grid
       fill_image: false
