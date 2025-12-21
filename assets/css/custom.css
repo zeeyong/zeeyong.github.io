@@ -1,0 +1,18 @@
+/* Citation view numbering */
+.view-citation .citation {
+  counter-reset: pub-counter;
+}
+
+.view-citation .citation li {
+  list-style: none;
+  counter-increment: pub-counter;
+  position: relative;
+  padding-left: 2.2em;
+}
+
+.view-citation .citation li::before {
+  content: "[" counter(pub-counter) "]";
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+}

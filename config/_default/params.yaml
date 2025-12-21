@@ -60,3 +60,6 @@ features:
   privacy_pack:
     enable: false
   font_css: "css/style.css"
+
+custom_css:
+  - css/custom.css
