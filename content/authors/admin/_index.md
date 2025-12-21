@@ -40,7 +40,7 @@ profiles:
 interests:
 - Scientific Machine Learning
 - AI-based Surrogate Modeling for Physical Systems
-- Constrained Layout Optimization 
+- Constraint-aware Layout Optimization 
 - Reinforcement Learning
 
 education:

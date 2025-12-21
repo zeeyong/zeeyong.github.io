@@ -22,11 +22,22 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Conferences
+      title: International Conferences
       text: ""
       filters:
         folders:
-          - conference
+          - conferences[internaltional]
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 2
+  - block: collection
+    content:
+      title: Korean Conferences
+      text: ""
+      filters:
+        folders:
+          - conferences[korean]
     design:
       view: article-grid
       fill_image: false
