@@ -30,7 +30,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: Korean Society of Mechanical Engineers (KSME 2022)
-publication_short: KSME 2022 Spring
+publication_short: KSME 2022 Spring (Poster)
 
 abstract: The New Car Assessment Program (NCAP) is an evaluation system introduced to improve the safety of vehicles to reduce the incidence of casualties from traffic accidents, and car crash testing is one of the key evaluation methods. In order for designers to facilitate the development of vehicles that meet specific collision performance, it is necessary to identify factors that have a significant impact on NCAP ratings. This work proposes a machine learning-based NCAP rating prediction model that applies cross-validation (K-Fold) techniques to data extracted from NCAP test reports. Therefore, a global sensitivity analysis (Sobol Indices) is performed based on the generated prediction model. By deriving quantitative analysis results based on general sensitivity analysis methods, it is possible to propose objective and more reliable design variables than intuitive designs that design vehicles based solely on the experience. 
 

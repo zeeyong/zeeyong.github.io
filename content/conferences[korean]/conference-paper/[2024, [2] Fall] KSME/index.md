@@ -1,12 +1,11 @@
 ---
-title: 'Design Optimization of OLED Display Panels for Drop Impact Resistance Using A Graph Neural Network'
+title: 'Comparative Study of Spatiotemporal Prediction Performance in 2D Cylinder Fluid Flow: Meshgraphnet vs Neural Implicit Representation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Jangseop Park 
   - Sunwoong Yang
   - Namwoo Kang*
 
@@ -14,14 +13,13 @@ authors:
 author_notes:
   - ""
   - ""
-  - ""
   - "corresponding author"
 
-date: '2024-08-29T00:00:00Z'
+date: '2024-11-08T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-08-29T00:00:00Z'
+publishDate: '2024-11-08T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -29,19 +27,19 @@ publishDate: '2024-08-29T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: International Conference of the Theoretical and Applied Mechanics (ICTAM 2024)
-publication_short: ICTAM 2024
+publication: Korean Society of Mechanical Engineers (KSME 2024)
+publication_short: KSME 2024 Fall (Poster)
 
-abstract: This study proposes a graph neural network-based surrogate model for predicting dynamic ball drop tests, ensuring the impact resistance and structural stability of layered OLED display panels. Our framework transforms mesh data into a graph representation and follows an encoder-processor-decoder architecture. The model incorporates non-penetration constraints into the loss function, improving accuracy and maintaining physical consistency. As a result, the model can predict stress and behavior for the entire time-step using only initial state mesh data and the forward-euler method for subsequent step predictions. Finally, we conduct design optimization to balance structural stability and cost. This novel framework aims to develop robust and reliable OLED displays while considering both mechanical performance and cost.
+abstract: This study conducts a comparative analysis of the performance of MeshGraphNet (MGN) and Neural Implicit Representation (NIR) for predicting spatiotemporal dynamics in 2D cylinder flow problems. MGN leverages a graph neural network (GNN) to model spatial relationships by converting irregular mesh data into a graph structure consisting of nodes and edges. Using message-passing mechanisms, MGN captures the complex interactions between nodes, making it particularly effective for simulating nonlinear dynamics on irregular meshes. In contrast, NIR operates in a mesh-agnostic framework, representing data as continuous functions. NIR employs positional encoding to accurately capture high-resolution spatiotemporal patterns, allowing it to handle complex systems flexibly and efficiently and uses gaussian noise to enhance model's generalization. We evaluate both models based on three key factors; prediction accuracy, computational efficiency, and generalization ability. The results of this analysis provide valuable insights into the strengths and weaknesses of each model, offering practical guidance for selecting the most appropriate method for spatiotemporal predictions in complex physical systems.
 
 # Summary. An optional shortened abstract.
 summary: ''
 
 tags:
-  - Graph neural network
-  - Drop impact test
-  - Spatio-temporal dynamics
-  - Design optimization
+  - MeshGraphNet
+  - Neural implicit representation
+  - Spatiotemporal dynamics
+  - Computer fluid dynamics
 
 # Display this page in the Featured widget?
 featured: true

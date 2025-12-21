@@ -1,12 +1,11 @@
 ---
-title: 'Design Optimization of OLED Display Panels for Drop Impact Resistance Using A Graph Neural Network'
+title: 'Point-based Diffusion Model for Predicting 2D Spatio-Temporal and 3D Large-Scale Physical Systems with Shape Variations'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Jangseop Park 
   - Sunwoong Yang
   - Namwoo Kang*
 
@@ -14,14 +13,13 @@ authors:
 author_notes:
   - ""
   - ""
-  - ""
   - "corresponding author"
 
-date: '2024-08-29T00:00:00Z'
+date: '2025-04-18T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-08-29T00:00:00Z'
+publishDate: '2025-04-18T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -29,19 +27,20 @@ publishDate: '2024-08-29T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: International Conference of the Theoretical and Applied Mechanics (ICTAM 2024)
-publication_short: ICTAM 2024
+publication: Korean Society of Mechanical Engineers (KSME 2025)
+publication_short: KSME 2025 Spring
 
-abstract: This study proposes a graph neural network-based surrogate model for predicting dynamic ball drop tests, ensuring the impact resistance and structural stability of layered OLED display panels. Our framework transforms mesh data into a graph representation and follows an encoder-processor-decoder architecture. The model incorporates non-penetration constraints into the loss function, improving accuracy and maintaining physical consistency. As a result, the model can predict stress and behavior for the entire time-step using only initial state mesh data and the forward-euler method for subsequent step predictions. Finally, we conduct design optimization to balance structural stability and cost. This novel framework aims to develop robust and reliable OLED displays while considering both mechanical performance and cost.
+abstract: Traditional diffusion-based approaches for physical system prediction typically depend on grid-based, snapshot-level representations, which restrict their applicability to irregular domains and varying geometries. In this work, we propose a point-wise conditional diffusion framework that enables flexible and efficient prediction of complex physical phenomena across diverse and irregular geometries without requiring fixed grids. The proposed method is evaluated on 2D spatio-temporal systems in both Eulerian and Lagrangian settings, as well as on 3D large-scale aerodynamic problems, demonstrating strong generalization across varying geometric complexities.
 
 # Summary. An optional shortened abstract.
 summary: ''
 
 tags:
-  - Graph neural network
-  - Drop impact test
-  - Spatio-temporal dynamics
-  - Design optimization
+  - Scientific machine learning
+  - Point-wise conditional diffusion models
+  - 2D Spatio-temporal systems
+  - 3D Large-scale aerodynamic systems
+  - Shape variations
 
 # Display this page in the Featured widget?
 featured: true
