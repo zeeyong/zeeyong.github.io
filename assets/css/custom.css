@@ -1,18 +1,34 @@
-/* Citation view numbering */
+/* ================================
+   Citation view: [1], [2] numbering
+   ================================ */
+
 .view-citation .citation {
-  counter-reset: pub-counter;
+  counter-reset: pub;
 }
 
 .view-citation .citation li {
   list-style: none;
-  counter-increment: pub-counter;
+  counter-increment: pub;
   position: relative;
   padding-left: 2.2em;
 }
 
 .view-citation .citation li::before {
-  content: "[" counter(pub-counter) "]";
+  content: "[" counter(pub) "]";
   position: absolute;
   left: 0;
   font-weight: 600;
+}
+
+
+/* ==========================================
+   Reduce gap between section title and list
+   ========================================== */
+
+.section-heading {
+  margin-bottom: 0.6rem !important;
+}
+
+.view-citation .citation {
+  margin-top: 0.3rem !important;
 }
