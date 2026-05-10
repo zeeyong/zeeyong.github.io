@@ -40,8 +40,8 @@ abstract: In this work, we propose a safe reinforcement learning framework for l
 summary: ''
 
 tags:
-  - 3D layout optimization
-  - Constrained optimization
+  - Large-scale 3D layout optimization
+  - Mixed-variable constrained optimization
   - NP-hard
   - Safe reinforcement learning
 
