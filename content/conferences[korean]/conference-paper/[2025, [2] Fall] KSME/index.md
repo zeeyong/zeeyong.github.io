@@ -32,7 +32,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: Korean Society of Mechanical Engineers (KSME 2025)
-publication_short: KSME 2025 Fall
+publication_short: KSME 2025 Fall (🏆Best Paper Award)
 
 abstract: In this work, we propose a safe reinforcement learning framework for large-scale layout optimization under complex constraints. The problem is formulated as a constrained Markov decision process (CMDP), where the placement of objects is represented as hybrid actions consisting of continuous coordinates and discrete floor/rotation indices. To enforce constraints during training, we employ a constrained actor–critic architecture, in which the policy network is trained jointly with reward and cost critics. After reinforcement learning converges, the near-optimal layouts obtained from the safe reinforcement learning agent are further refined through fine-grained optimization using metaheuristic search, which improves objective values and constraint satisfaction. We expect that our two-stage approach effectively balances exploration and constraint enforcement, achieving competitive performance while reducing constraint violations in layout optimization tasks.
 
