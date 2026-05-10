@@ -4,6 +4,6 @@ date: 2025-12-12
 authors:
   - admin
 ---
-**Conference:** KSME 2025 Fall
+**Conference:** 2025 KSME CAE and Applied Mechanics Division Fall Conference
 
 <!--more-->
