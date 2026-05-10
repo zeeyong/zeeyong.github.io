@@ -35,7 +35,7 @@ section:nth-of-type(3) .dark .pub-list-item.view-citation::before {
 
 /* News 페이지: 카드 스타일 */
 .max-w-\[65ch\] {
-  max-width: 100% !important;
+  max-width: 80ch !important;
 }
 .max-w-\[65ch\] a.mb-5 {
   pointer-events: none !important;
@@ -61,6 +61,6 @@ section:nth-of-type(3) .dark .pub-list-item.view-citation::before {
 }
 /* 이미지 크기 확대 */
 .max-w-\[65ch\] .md\:flex-shrink-0 img {
-  width: 16rem !important;
+  width: 12rem !important;
   height: auto !important;
 }
