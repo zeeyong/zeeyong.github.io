@@ -1,12 +1,9 @@
 ---
-title: '🏆 Best Paper Award'
+title: 'Safe Reinforcement Learning for 3D Large Scale Constrained Layout Optimization'
 date: 2025-12-12
 authors:
-  - SDL
+  - admin
 ---
-
-**Title:** Safe Reinforcement Learning for 3D Large Scale Constrained Layout Optimization
-
 **Conference:** KSME 2025 Fall
 
 <!--more-->
