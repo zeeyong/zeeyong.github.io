@@ -33,14 +33,34 @@ section:nth-of-type(3) .dark .pub-list-item.view-citation::before {
   color: #fff !important;
 }
 
-/* News 페이지: 카드 링크 비활성화 */
+/* News 페이지: 카드 스타일 */
+.max-w-\[65ch\] {
+  max-width: 100% !important;
+}
 .max-w-\[65ch\] a.mb-5 {
   pointer-events: none !important;
   cursor: default !important;
 }
+.max-w-\[65ch\] a.mb-5 > .md\:flex {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
 .max-w-\[65ch\] a.mb-5 .text-primary-700 {
   color: #333 !important;
+  font-size: 1.25rem !important;
 }
 .max-w-\[65ch\] a.mb-5 .dark\:text-primary-200 {
   color: #fff !important;
+}
+/* 카드 컨테이너 박스 제거 */
+.max-w-\[65ch\].container {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+/* 이미지 크기 확대 */
+.max-w-\[65ch\] .md\:flex-shrink-0 img {
+  width: 16rem !important;
+  height: auto !important;
 }
