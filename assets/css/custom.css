@@ -32,3 +32,10 @@ section:nth-of-type(3) .pub-list-item.view-citation::before {
 section:nth-of-type(3) .dark .pub-list-item.view-citation::before {
   color: #fff !important;
 }
+
+/* News 페이지: showcase 카드 링크 비활성화 */
+.showcase a {
+  pointer-events: none !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
