@@ -10,9 +10,9 @@ main:
   - name: Publications
     url: publications/
     weight: 20
-  - name: News
-    url: news/
-    weight: 25
   - name: Projects
     url: projects/
+    weight: 25
+  - name: News
+    url: news/
     weight: 30

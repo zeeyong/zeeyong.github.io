@@ -33,9 +33,14 @@ section:nth-of-type(3) .dark .pub-list-item.view-citation::before {
   color: #fff !important;
 }
 
-/* News 페이지: showcase 카드 링크 비활성화 */
-.showcase a {
+/* News 페이지: 카드 링크 비활성화 */
+.max-w-\[65ch\] a.mb-5 {
   pointer-events: none !important;
-  color: inherit !important;
-  text-decoration: none !important;
+  cursor: default !important;
+}
+.max-w-\[65ch\] a.mb-5 .text-primary-700 {
+  color: #333 !important;
+}
+.max-w-\[65ch\] a.mb-5 .dark\:text-primary-200 {
+  color: #fff !important;
 }
