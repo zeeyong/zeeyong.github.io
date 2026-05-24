@@ -1,5 +1,5 @@
 ---
-title: "Point-wise Diffusion Models for Physical Systems with Shape Variations: Application to  Spatio-temporal and Large-scale system"
+title: "Point-wise Conditional Diffusion Models for Physical Systems with Shape Variations: Applications to Spatio-temporal and Large-scale Systems"
 authors: 
 - admin
 - Sunwoong Yang*
@@ -28,7 +28,7 @@ abstract: "This study introduces a novel point-wise diffusion model that process
 tags:
 - Neural Networks
 - Scientific machine learning
-- Point-wise diffusion models
+- Point-wise conditional diffusion models
 - 2D Spatio-temporal systems
 - 3D large-scale systems
 - Shape variations
