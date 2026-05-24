@@ -38,6 +38,7 @@ abstract: This study proposes a graph neural network-based surrogate model for p
 summary: ''
 
 tags:
+  - 2024 ICTAM
   - Graph neural network
   - Drop impact test
   - Spatio-temporal dynamics

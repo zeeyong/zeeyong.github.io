@@ -20,12 +20,13 @@ doi: ""
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Arxiv"
+publication: "Neural Networks - 2026"
 publication_short: ""
 
 abstract: "This study introduces a novel point-wise diffusion model that processes spatio-temporal points independently to efficiently predict complex physical systems with shape variations. This methodological contribution lies in applying forward and backward diffusion processes at individual spatio-temporal points, coupled with a point-wise diffusion transformer architecture for denoising. Unlike conventional image-based diffusion models that operate on structured data representations, this framework enables direct processing of any data formats including meshes and point clouds while preserving geometric fidelity. We validate our approach across three distinct physical domains with complex geometric configurations: 2D spatio-temporal systems including cylinder fluid flow and OLED drop impact test, and 3D large-scale system for road-car external aerodynamics. To justify the necessity of our point-wise approach for real-time prediction applications, we employ denoising diffusion implicit models (DDIM) for efficient deterministic sampling, requiring only 5-10 steps compared to traditional 1000-step diffusion procedures and providing computational speedup of 100 to 200 times during inference without compromising accuracy. In addition, our proposed model achieves superior performance compared to image-based diffusion model: reducing training time by 94.4% and requiring 89.0% fewer parameters while achieving over 28% improvement in prediction accuracy. Comprehensive comparisons against established data-flexible surrogate models including DeepONet and Meshgraphnet demonstrate consistent superiority of our approach across all three physical systems explored in this study, with performance improvements ranging from 30-90% error reduction. To further refine the proposed model, we investigate two key aspects: 1) comparison of final physical states prediction or incremental change prediction, and 2) computational efficiency evaluation across varying subsampling ratios (10%-100%). Our refined model shows that incremental change prediction outperforms final physical states prediction especially for position prediction in the drop impact system, and maintains superior performance even when using only 30% of the original point samples while requiring significantly less computational resources during training."
 
 tags:
+- Neural Networks
 - Scientific machine learning
 - Point-wise diffusion models
 - 2D Spatio-temporal systems

@@ -36,6 +36,7 @@ abstract: Conventional diffusion models applied to physics prediction rely on gr
 summary: ''
 
 tags:
+  - 2025 APCOM
   - Scientific machine learning
   - Point-wise conditional diffusion models
   - 2D Spatio-temporal systems
